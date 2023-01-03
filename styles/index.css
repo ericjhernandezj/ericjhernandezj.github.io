@@ -92,13 +92,13 @@ main section a div {
   border-radius: 5px;
 
   box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
--webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
--moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
 }
 
 main section a div strong {
   color: rgb(102, 102, 102);
-  font-size: 130%;
+  font-size: 110%;
 }
 
 /* Footer styles */
