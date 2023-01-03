@@ -4,6 +4,8 @@
 }
 */
 
+/* General styles */
+
 html::-webkit-scrollbar {
   display: none;
 }
@@ -26,7 +28,7 @@ body {
   color: black;
 }
 
-/* br */
+/* Header styles */
 
 header {
   text-align: center;
@@ -64,12 +66,22 @@ header div a img {
   text-align: center;
 }
 
-section {
+/* Main styles */
+
+main section {
   text-align: center;
   margin-bottom: 6%;
 }
 
-section div {
+main section a {
+  margin: auto;
+}
+
+main section a {
+  text-decoration: none;
+}
+
+main section a div {
   background-color: lightgray;
   margin-left: 17%;
   margin-right: 17%;
@@ -78,11 +90,18 @@ section div {
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: 5px;
+
+  box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
+-webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
+-moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
 }
 
-section div a {
-  margin: auto;
+main section a div strong {
+  color: rgb(102, 102, 102);
+  font-size: 130%;
 }
+
+/* Footer styles */
 
 footer {
   text-align: center;
