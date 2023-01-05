@@ -30,6 +30,10 @@ Join the discussion [here](https://github.com/ericjhernandezj/ericjhernandezj.gi
 
 - [x] Add __Blog__ section
   - [ ] Add __Time Zones__ for posts
+  - [ ] Add Post template
+    - [ ] Add tags
+    - [ ] Allow switching between posts
+    - [ ] Add __Share__ option
 - [ ] Add __Projects__ section
 - [ ] Add __Contact__ section
 - [ ] Add tablet version
