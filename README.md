@@ -28,7 +28,7 @@ Join the discussion [here](https://github.com/ericjhernandezj/ericjhernandezj.gi
 
 ## Roadmap
 
-- [ ] Add __Blog__ section
+- [x] Add __Blog__ section
   - [ ] Add __Time Zones__ for posts
 - [ ] Add __Projects__ section
 - [ ] Add __Contact__ section
