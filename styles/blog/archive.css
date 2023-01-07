@@ -30,7 +30,6 @@ h1 {
     margin-bottom: 5%;
 }
 
-
 header div {
     display: flex;
     justify-content: space-between;
@@ -65,64 +64,31 @@ header div div a {
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
-
 /* Main styles */
-
-.recommendation-container {
-    margin-left: 15%;
-    margin-right: 15%;
+main p {
+    color: red;
+    font-size: small;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: justify;
 }
 
-.years-container section {
-    margin: 10%;
-    border-radius: 5px;
-
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-
+#first-divider {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-main div section h2 {
-    padding-top: 3%;
-}
-
-main div section div {
-    padding-bottom: 1%;
-}
-
-main div section div a h3 {
+main section {
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    color: black;
 }
 
-.years-container {
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: 5%;
+.divider {
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
-main div a img {
-    width: 11%;
-    border-radius: 5px;
-    padding: 1%;
-
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-}
-
-main div a img:active {
-    width: 11%;
-    border-radius: 5px;
-    padding: 1%;
-
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-}
-
 /* Footer styles */
 footer {
     text-align: center;
