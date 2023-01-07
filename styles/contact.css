@@ -70,7 +70,8 @@ main div {
 }
 iframe {
     width: 99%;
-    height: 1100px;
+    height: 1050px;
+    border: 0;
 }
 
 /* Footer styles */
