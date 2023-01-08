@@ -1,5 +1,4 @@
 /* General styles */
-
 html::-webkit-scrollbar {
     display: none;
 }
@@ -21,18 +20,18 @@ body {
 }
 
 /* Header styles */
-h1 {
-    text-align: center;
+header > h1 {
     margin-top: 2%;
-    margin-bottom: 5%;
+    text-align: center;
+    font-size: xx-large;
 }
 
-header div {
+header > div {
     display: flex;
     justify-content: space-between;
 }
 
-header div div {
+header > div > div {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -44,7 +43,7 @@ header div div {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-header div div:active {
+header > div > div:active {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -56,72 +55,82 @@ header div div:active {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
-header div div a {
-    font-size: large;
+header > div > div > a {
+    font-size: medium;
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
 
 /* Main styles */
-
-main section h2 {
+main > section > h2 {
     text-align: center;
+    font-size: x-large;
 }
 
-main section article {
+main > section > article {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 5px;
+    text-align: justify;
 
     box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-main section article h3 {
-    text-align: left;
-    padding-top: 3%;
+main > section > article > h3 {
+    padding-top: 4%;
     margin-bottom: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
-    font-size: larger;
-}
-
-main section article span {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: x-large;
     text-align: left;
-    font-size: small;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
-main section article p {
-    text-align: justify;
+main > section > article > span {
+    margin-left: 7%;
+    margin-right: 7%;
     font-size: medium;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-bottom: 3%;
+    text-align: left;
 }
 
-main div {
+main > section > article > p {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: large;
+    text-align: justify;
+}
+
+main > section > article > footer {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 0;
+    text-align: left;
+}
+
+main > section > article > footer > a {
+    font-size: small;
+}
+
+main > div {
+    margin-top: 10%;
     text-align: center;
-    margin-top: 7%;
-    margin-bottom: 5%;
 }
 
-main div a img {
-    width: 11%;
-    border-radius: 5px;
+main > div > a > img {
+    width: 12%;
     padding: 1%;
+    border-radius: 5px;
 
     box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-main div a img:active {
-    width: 11%;
-    border-radius: 5px;
+main > div > a > img:active {
+    width: 12%;
     padding: 1%;
+    border-radius: 5px;
 
     box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
     -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
@@ -129,9 +138,9 @@ main div a img:active {
 }
 
 /* Footer styles */
-
 footer {
-    text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+    font-size: small;
+    text-align: center;
 }
