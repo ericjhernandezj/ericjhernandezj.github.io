@@ -20,18 +20,17 @@ body {
 }
 
 /* Header styles */
-h1 {
-    text-align: center;
+header > h1 {
     margin-top: 2%;
-    margin-bottom: 5%;
+    text-align: center;
 }
 
-#main-header div {
+body > header > div {
     display: flex;
     justify-content: space-between;
 }
 
-#main-header div div {
+body > header > div > div {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -43,7 +42,7 @@ h1 {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-#main-header div div:active {
+body > header > div > div:active {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -55,51 +54,63 @@ h1 {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
-#main-header div div a {
-    font-size: large;
+body > header > div > div > a {
+    font-size: medium;
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
-/* Main styles */
-main div article {
-    text-align: justify;
 
+/* Main styles */
+main > div > article {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 5px;
+    text-align: justify;
 
     box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-.article-header {
+main > div > article > header {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+main > div > article > header > h2 {
+    padding-top: 4%;
+    margin-bottom: 2%;
+    font-size: x-large;
+}
+
+main > div > article > header > span {
+    font-size: medium;
+}
+
+main > div > article > div {
     margin-left: 8%;
     margin-right: 8%;
 }
 
-.article-header h2 {
-    padding-top: 5%;
+main > div > article > div > p {
+    font-size: large;
+    margin-bottom: 0;
 }
 
-main div article section {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.article-footer {
+main > div > article > footer {
     margin-left: 8%;
     margin-right: 8%;
     text-align: left;
 }
 
-.article-footer a {
-    font-size: smaller;
+main > div > article > footer > a {
+    font-size: small;
 }
- 
+
 /* Footer styles*/
 footer {
-    text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+    font-size: small;
+    text-align: center;
 }
