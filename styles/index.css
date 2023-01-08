@@ -1,11 +1,4 @@
-/*
-* {
-  outline: 1px red solid;
-}
-*/
-
 /* General styles */
-
 html::-webkit-scrollbar {
   display: none;
 }
@@ -21,7 +14,7 @@ html {
 }
 
 body {
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
@@ -29,7 +22,6 @@ body {
 }
 
 /* Header styles */
-
 header {
   text-align: center;
 }
@@ -67,7 +59,6 @@ header div a img {
 }
 
 /* Main styles */
-
 main section {
   text-align: center;
   margin-bottom: 6%;
@@ -117,7 +108,6 @@ main section a div strong {
 }
 
 /* Footer styles */
-
 footer {
   text-align: center;
   padding-top: 5%;
