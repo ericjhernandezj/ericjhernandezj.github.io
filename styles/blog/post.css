@@ -1,5 +1,4 @@
 /* General styles */
-
 html::-webkit-scrollbar {
     display: none;
 }
@@ -20,70 +19,94 @@ body {
     color: black;
 }
 
-img {
+figure > img {
+    text-align: center;
     width: 100%;
 }
 
-.image {
-    text-align: center;
+figure > figcaption {
+    font-size: small;
+}
+
+kbd {
+    padding: 0.5%;
+    border-radius: 5px;
+    font-family: monospace;
+    color: black;
+    background-color: rgb(217, 217, 217);
+}
+
+.code-block {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    background-color: rgb(217, 217, 217);
+}
+
+.code-block > code {
     font-size: medium;
 }
 
 /* Header styles */
-
-header h1 {
+header > h1 {
     margin-top: 10%;
-    margin-left: 11%;
-    margin-bottom: 1%;
-    font-size: xx-large;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    margin-right: 10%;
+    font-size: x-large;
 }
 
-header span {
-    margin-left: 11%;
+header > span {
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: medium;
 }
 
 /* Main styles */
-main div {
-    margin-left: 11%;
-    margin-right: 11%;
+main > div {
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
+}
+
+main > div > p {
+    text-align: justify;
     font-size: large;
 }
 
-main div p {
-    text-align: justify;
+main > div > div {
+    text-align: center;
 }
 
-.archive-icon-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-.archive-icon {
-    width: 14%;
+main > div > div > a > img {
+    margin-top: 8%;
+    width: 15%;
+    padding: 1%;
     border-radius: 5px;
-    padding: 0.5%;
 
     box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-  }
+}
   
-.archive-icon:active {
-    width: 14%;
+main > div > div > a > img:active {
+    margin-top: 8%;
+    width: 15%;
+    padding: 1%;
     border-radius: 5px;
-    padding: 0.5%;
 
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-  }
+    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 
 /* Footer styles */
 footer {
-    text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+    font-size: small;
+    text-align: center;
 }
