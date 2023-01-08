@@ -1,5 +1,4 @@
 /* General styles */
-
 html::-webkit-scrollbar {
     display: none;
 }
@@ -20,23 +19,30 @@ body {
     color: black;
 }
 
-/* Header styles */
+kbd {
+    font-family: monospace;
+    background-color: rgb(217, 217, 217);
+    padding: 0.5%;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
 
-h1 {
+/* Header styles */
+header > h1 {
     text-align: center;
     margin-top: 2%;
     margin-bottom: 5%;
 }
 
-header div {
+header > div {
     display: flex;
     justify-content: space-between;
 }
 
-header div div {
+header > div > div {
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
     border-radius: 5px;
     padding: 1%;
 
@@ -45,10 +51,9 @@ header div div {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-header div div:active {
+header > div > div:active {
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
     border-radius: 5px;
     padding: 1%;
 
@@ -57,39 +62,41 @@ header div div:active {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
-header div div a {
-    font-size: large;
+header > div > div > a {
+    font-size: medium;
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
+
 /* Main styles */
-main p {
-    color: red;
-    font-size: small;
-    margin-bottom: 5%;
+main > p {
     margin-left: 10%;
     margin-right: 10%;
+    font-size: small;
     text-align: justify;
+    color: red;
 }
 
-#first-divider {
+main > hr {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-main section {
+main > div > section {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
 }
 
-.divider {
+main > div > hr {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 /* Footer styles */
 footer {
-    text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+    font-size: small;
+    text-align: center;
 }
