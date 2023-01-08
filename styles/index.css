@@ -15,8 +15,6 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
   background-color: whitesmoke;
   color: black;
 }
@@ -26,19 +24,19 @@ header {
   text-align: center;
 }
 
-header img {
+header > img {
   border-radius: 15%;
   width: 22.5%;
   margin-top: 7%;
 }
 
-header h1 {
+header > h1 {
   margin-top: 2%;
   font-size: 170%;
   text-align: center;
 }
 
-header p {
+header > p {
   text-align: justify;
   margin-top: 2%;
   margin-bottom: 6%;
@@ -47,32 +45,29 @@ header p {
   font-size: 110%;
 }
 
-header div {
+header > div {
   margin-top: 1%;
   margin-bottom: 5%;
 }
 
-header div a img {
+header > div > a > img {
   margin: 0.5%;
   width: 10%;
   text-align: center;
 }
 
 /* Main styles */
-main section {
+main > section {
   text-align: center;
   margin-bottom: 6%;
 }
 
-main section a {
+main > section > a {
   margin: auto;
-}
-
-main section a {
   text-decoration: none;
 }
 
-main section a div {
+main > section > a > div {
   background-color: lightgray;
   margin-left: 17%;
   margin-right: 17%;
@@ -87,7 +82,7 @@ main section a div {
   -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4);
 }
 
-main section a div:active {
+main > section > a > div:active {
   background-color: lightgray;
   margin-left: 17%;
   margin-right: 17%;
@@ -102,7 +97,7 @@ main section a div:active {
   -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0,0,0,0.4) inset; 
 }
 
-main section a div strong {
+main > section > a > div > strong {
   color: rgb(102, 102, 102);
   font-size: 110%;
 }
