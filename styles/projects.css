@@ -33,9 +33,9 @@ body > header > div {
 }
 
 body > header > div > div {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -45,9 +45,9 @@ body > header > div > div {
 }
 
 body > header > div > div:active {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -64,8 +64,9 @@ body > header > div > div > a {
 
 /* Main styles */
 main > div > article {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5px;
     text-align: justify;
 
@@ -106,7 +107,7 @@ main > div > article > figure {
 }
 
 main > div > article > figure > img {
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
 }
 
@@ -121,14 +122,14 @@ main > div > article > footer {
 }
 
 main > div > article > footer > a {
-    font-size: small;
+    font-size: medium;
 }
 
 /* Footer styles*/
 footer {
     padding-top: 10%;
     padding-bottom: 5%;
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 
