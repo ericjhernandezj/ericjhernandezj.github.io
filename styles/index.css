@@ -41,8 +41,8 @@ header>h1 {
 
 header>p {
   margin-top: 3%;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 26%;
+  margin-right: 26%;
   text-align: justify;
   font-size: larger;
 }
@@ -53,7 +53,7 @@ header>div {
 
 header>div>a>img {
   margin: 0.7%;
-  width: 5%;
+  width: 4%;
 }
 
 /* Main styles */
