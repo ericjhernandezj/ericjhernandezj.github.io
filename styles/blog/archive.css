@@ -41,8 +41,8 @@ header > div {
 }
 
 header > div > div {
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -52,8 +52,8 @@ header > div > div {
 }
 
 header > div > div:active {
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -72,8 +72,8 @@ header > div > div > a {
 main > p {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: small;
-    text-align: justify;
+    font-size: medium;
+    text-align: center;
     color: red;
 }
 
@@ -97,7 +97,7 @@ main > div > hr {
 footer {
     padding-top: 10%;
     padding-bottom: 5%;
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 
