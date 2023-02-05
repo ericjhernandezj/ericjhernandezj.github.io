@@ -19,8 +19,6 @@ body {
     color: black;
 }
 
-
-
 /*Desktop*/
 /* Header styles */
 header > h1 {
@@ -35,9 +33,9 @@ header > div {
 }
 
 header > div > div {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -47,9 +45,9 @@ header > div > div {
 }
 
 header > div > div:active {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 5px;
     padding: 1%;
 
@@ -71,8 +69,8 @@ main > section > h2 {
 }
 
 main > section > article {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 24%;
+    margin-right: 24%;
     border-radius: 5px;
     text-align: justify;
 
@@ -112,16 +110,16 @@ main > section > article > footer {
 }
 
 main > section > article > footer > a {
-    font-size: small;
+    font-size: medium;
 }
 
 main > div {
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
 }
 
 main > div > a > img {
-    width: 12%;
+    width: 5%;
     padding: 1%;
     border-radius: 5px;
 
@@ -131,7 +129,7 @@ main > div > a > img {
 }
 
 main > div > a > img:active {
-    width: 12%;
+    width: 5%;
     padding: 1%;
     border-radius: 5px;
 
@@ -144,7 +142,7 @@ main > div > a > img:active {
 footer {
     padding-top: 10%;
     padding-bottom: 5%;
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 
