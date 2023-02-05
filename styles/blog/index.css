@@ -21,18 +21,18 @@ body {
 
 /*Desktop*/
 /* Header styles */
-header > h1 {
+header>h1 {
     margin-top: 2%;
     text-align: center;
     font-size: xx-large;
 }
 
-header > div {
+header>div {
     display: flex;
     justify-content: space-between;
 }
 
-header > div > div {
+header>div>div {
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
@@ -44,7 +44,7 @@ header > div > div {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-header > div > div:active {
+header>div>div:active {
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
@@ -56,19 +56,19 @@ header > div > div:active {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
-header > div > div > a {
+header>div>div>a {
     font-size: medium;
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
 
 /* Main styles */
-main > section > h2 {
+main>section>h2 {
     text-align: center;
     font-size: x-large;
 }
 
-main > section > article {
+main>section>article {
     margin-left: 24%;
     margin-right: 24%;
     border-radius: 5px;
@@ -79,7 +79,7 @@ main > section > article {
     -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
 }
 
-main > section > article > h3 {
+main>section>article>h3 {
     padding-top: 4%;
     margin-bottom: 1%;
     margin-left: 7%;
@@ -88,37 +88,37 @@ main > section > article > h3 {
     text-align: left;
 }
 
-main > section > article > span {
+main>section>article>span {
     margin-left: 7%;
     margin-right: 7%;
     font-size: medium;
     text-align: left;
 }
 
-main > section > article > p {
+main>section>article>p {
     margin-left: 7%;
     margin-right: 7%;
     font-size: large;
     text-align: justify;
 }
 
-main > section > article > footer {
+main>section>article>footer {
     margin-left: 7%;
     margin-right: 7%;
     padding-top: 0;
     text-align: left;
 }
 
-main > section > article > footer > a {
+main>section>article>footer>a {
     font-size: medium;
 }
 
-main > div {
+main>div {
     margin-top: 8%;
     text-align: center;
 }
 
-main > div > a > img {
+main>div>a>img {
     width: 5%;
     padding: 1%;
     border-radius: 5px;
@@ -128,7 +128,7 @@ main > div > a > img {
     -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-main > div > a > img:active {
+main>div>a>img:active {
     width: 5%;
     padding: 1%;
     border-radius: 5px;
@@ -149,259 +149,261 @@ footer {
 
 /*Tablet*/
 @media screen and (max-width: 820px) {
+
     /* Header styles */
-header > h1 {
-    margin-top: 2%;
-    text-align: center;
-    font-size: xx-large;
-}
+    header>h1 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: xx-large;
+    }
 
-header > div {
-    display: flex;
-    justify-content: space-between;
-}
+    header>div {
+        display: flex;
+        justify-content: space-between;
+    }
 
-header > div > div {
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-radius: 5px;
-    padding: 1.5%;
+    header>div>div {
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 5px;
+        padding: 1.5%;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+    }
 
-header > div > div:active {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 5px;
-    padding: 1%;
+    header>div>div:active {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        padding: 1%;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+    }
 
-header > div > div > a {
-    font-size: large;
-    text-decoration: none;
-    color: rgb(102, 102, 102);
-}
+    header>div>div>a {
+        font-size: large;
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+    }
 
-/* Main styles */
-main > section > h2 {
-    text-align: center;
-    font-size: x-large;
-}
+    /* Main styles */
+    main>section>h2 {
+        text-align: center;
+        font-size: x-large;
+    }
 
-main > section > article {
-    margin-left: 18%;
-    margin-right: 18%;
-    border-radius: 5px;
-    text-align: justify;
+    main>section>article {
+        margin-left: 18%;
+        margin-right: 18%;
+        border-radius: 5px;
+        text-align: justify;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+    }
 
-main > section > article > h3 {
-    padding-top: 4%;
-    margin-bottom: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: x-large;
-    text-align: left;
-}
+    main>section>article>h3 {
+        padding-top: 4%;
+        margin-bottom: 1%;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: x-large;
+        text-align: left;
+    }
 
-main > section > article > span {
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: medium;
-    text-align: left;
-}
+    main>section>article>span {
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: medium;
+        text-align: left;
+    }
 
-main > section > article > p {
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: large;
-    text-align: justify;
-}
+    main>section>article>p {
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: large;
+        text-align: justify;
+    }
 
-main > section > article > footer {
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-top: 0;
-    text-align: left;
-}
+    main>section>article>footer {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 0;
+        text-align: left;
+    }
 
-main > section > article > footer > a {
-    font-size: small;
-}
+    main>section>article>footer>a {
+        font-size: small;
+    }
 
-main > div {
-    margin-top: 10%;
-    text-align: center;
-}
+    main>div {
+        margin-top: 10%;
+        text-align: center;
+    }
 
-main > div > a > img {
-    width: 9%;
-    padding: 1%;
-    border-radius: 5px;
+    main>div>a>img {
+        width: 9%;
+        padding: 1%;
+        border-radius: 5px;
 
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+    }
 
-main > div > a > img:active {
-    width: 9%;
-    padding: 1%;
-    border-radius: 5px;
+    main>div>a>img:active {
+        width: 9%;
+        padding: 1%;
+        border-radius: 5px;
 
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-}
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    }
 
-/* Footer styles */
-footer {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    font-size: small;
-    text-align: center;
-}
+    /* Footer styles */
+    footer {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: small;
+        text-align: center;
+    }
 }
 
 
 /*Smart Phone*/
 @media screen and (max-width: 414px) {
+
     /* Header styles */
-header > h1 {
-    margin-top: 2%;
-    text-align: center;
-    font-size: xx-large;
-}
+    header>h1 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: xx-large;
+    }
 
-header > div {
-    display: flex;
-    justify-content: space-between;
-}
+    header>div {
+        display: flex;
+        justify-content: space-between;
+    }
 
-header > div > div {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 5px;
-    padding: 1%;
+    header>div>div {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        padding: 1%;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+    }
 
-header > div > div:active {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 5px;
-    padding: 1%;
+    header>div>div:active {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        padding: 1%;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4) inset;
+    }
 
-header > div > div > a {
-    font-size: medium;
-    text-decoration: none;
-    color: rgb(102, 102, 102);
-}
+    header>div>div>a {
+        font-size: medium;
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+    }
 
-/* Main styles */
-main > section > h2 {
-    text-align: center;
-    font-size: x-large;
-}
+    /* Main styles */
+    main>section>h2 {
+        text-align: center;
+        font-size: x-large;
+    }
 
-main > section > article {
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 5px;
-    text-align: justify;
+    main>section>article {
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 5px;
+        text-align: justify;
 
-    box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 0.5px 2px rgba(0, 0, 0, 0.4);
+    }
 
-main > section > article > h3 {
-    padding-top: 4%;
-    margin-bottom: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: x-large;
-    text-align: left;
-}
+    main>section>article>h3 {
+        padding-top: 4%;
+        margin-bottom: 1%;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: x-large;
+        text-align: left;
+    }
 
-main > section > article > span {
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: medium;
-    text-align: left;
-}
+    main>section>article>span {
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: medium;
+        text-align: left;
+    }
 
-main > section > article > p {
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: large;
-    text-align: justify;
-}
+    main>section>article>p {
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: large;
+        text-align: justify;
+    }
 
-main > section > article > footer {
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-top: 0;
-    text-align: left;
-}
+    main>section>article>footer {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 0;
+        text-align: left;
+    }
 
-main > section > article > footer > a {
-    font-size: small;
-}
+    main>section>article>footer>a {
+        font-size: small;
+    }
 
-main > div {
-    margin-top: 10%;
-    text-align: center;
-}
+    main>div {
+        margin-top: 10%;
+        text-align: center;
+    }
 
-main > div > a > img {
-    width: 12%;
-    padding: 1%;
-    border-radius: 5px;
+    main>div>a>img {
+        width: 12%;
+        padding: 1%;
+        border-radius: 5px;
 
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
-}
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+    }
 
-main > div > a > img:active {
-    width: 12%;
-    padding: 1%;
-    border-radius: 5px;
+    main>div>a>img:active {
+        width: 12%;
+        padding: 1%;
+        border-radius: 5px;
 
-    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
-}
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    }
 
-/* Footer styles */
-footer {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    font-size: small;
-    text-align: center;
-}
+    /* Footer styles */
+    footer {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: small;
+        text-align: center;
+    }
 }
