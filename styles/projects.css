@@ -65,8 +65,8 @@ body > header > div > div > a {
 /* Main styles */
 main > div > article {
     margin-top: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 5px;
     text-align: justify;
 
@@ -127,7 +127,7 @@ main > div > article > footer > a {
 
 /* Footer styles*/
 footer {
-    padding-top: 10%;
+    padding-top: 6%;
     padding-bottom: 5%;
     font-size: medium;
     text-align: center;
