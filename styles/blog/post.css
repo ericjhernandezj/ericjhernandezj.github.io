@@ -19,6 +19,10 @@ body {
     color: black;
 }
 
+
+
+/*Desktop*/
+
 figure > img {
     text-align: center;
     width: 100%;
@@ -109,4 +113,201 @@ footer {
     padding-bottom: 5%;
     font-size: small;
     text-align: center;
+}
+
+
+
+/*Tablet*/
+@media screen and (max-width: 820px) {
+    figure {
+        text-align: center;
+    }
+
+    figure > img {
+        width: 70%;
+    }
+    
+    figure > figcaption {
+        font-size: small;
+    }
+    
+    kbd {
+        padding: 0.5%;
+        border-radius: 5px;
+        font-family: monospace;
+        color: black;
+        background-color: rgb(217, 217, 217);
+    }
+    
+    .code-block {
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 4%;
+        border-radius: 5px;
+        text-align: left;
+        color: black;
+        background-color: rgb(217, 217, 217);
+    }
+    
+    .code-block > code {
+        font-size: medium;
+    }
+
+
+    /* Header styles */
+    header > h1 {
+        margin-top: 8%;
+        margin-left: 14%;
+        margin-bottom: 1.5%;
+        margin-right: 10%;
+        font-size: xx-large;
+    }
+    
+    header > span {
+        margin-left: 14%;
+        margin-right: 14%;
+        font-size: large;
+    }
+    
+    /* Main styles */
+    main > div {
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-top: 5%;
+    }
+    
+    main > div > p {
+        text-align: justify;
+        font-size: large;
+    }
+    
+    main > div > div {
+        text-align: center;
+    }
+    
+    main > div > div > a > img {
+        margin-top: 5%;
+        width: 11%;
+        padding: 1%;
+        border-radius: 5px;
+    
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+    }
+      
+    main > div > div > a > img:active {
+        margin-top: 5%;
+        width: 11%;
+        padding: 1%;
+        border-radius: 5px;
+    
+        box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+        -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    }
+    
+    /* Footer styles */
+    footer {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: small;
+        text-align: center;
+    }}
+
+
+/*Smart Phone*/
+@media screen and (max-width: 414px) {
+    figure > img {
+        text-align: center;
+        width: 100%;
+    }
+    
+    figure > figcaption {
+        font-size: small;
+    }
+    
+    kbd {
+        padding: 0.5%;
+        border-radius: 5px;
+        font-family: monospace;
+        color: black;
+        background-color: rgb(217, 217, 217);
+    }
+    
+    .code-block {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 3%;
+        border-radius: 5px;
+        text-align: left;
+        color: black;
+        background-color: rgb(217, 217, 217);
+    }
+    
+    .code-block > code {
+        font-size: medium;
+    }
+
+
+    /* Header styles */
+header > h1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    margin-right: 10%;
+    font-size: x-large;
+}
+
+header > span {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: medium;
+}
+
+/* Main styles */
+main > div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+main > div > p {
+    text-align: justify;
+    font-size: large;
+}
+
+main > div > div {
+    text-align: center;
+}
+
+main > div > div > a > img {
+    margin-top: 8%;
+    width: 15%;
+    padding: 1%;
+    border-radius: 5px;
+
+    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4);
+}
+  
+main > div > div > a > img:active {
+    margin-top: 8%;
+    width: 15%;
+    padding: 1%;
+    border-radius: 5px;
+
+    box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 1.5px 1.5px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+/* Footer styles */
+footer {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: small;
+    text-align: center;
+}
 }
